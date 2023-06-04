@@ -1,0 +1,254 @@
+@media (max-width: 1200px)
+	.menu
+		&_item
+			padding-right: 20px
+		&_link
+			font-size: 13px
+	.promo
+		&_header
+			font-size: 50px
+	.reasons
+		&_block
+			align-items: flex-start
+		&_round
+			width: 95px
+			height: 95px
+		&_descr
+			width: 300px
+	.mobile
+		&_item
+			width: 300px
+	footer
+		.sub_list
+			justify-content: space-around
+			flex-wrap: wrap
+			
+@media (max-width: 991px)
+	.menu
+		&_item
+			padding-right: 8px
+		&_link
+			font-size: 10px
+	.subheader
+		&_logo
+			img
+				width: 100%
+		&_phone
+			font-size: 20px
+		&_official
+				font-size: 11px
+	.promo
+		&_header
+			font-size: 40px
+		&_subheader
+			font-size: 30px
+	.reasons  
+		.title
+			font-size: 36px
+		&_block
+			flex-direction: column
+			align-items: center
+		&_descr
+			margin-top: 20px
+	.conditions
+		&_block
+			width: 100%
+	footer
+		.wrapper
+			flex-direction: column
+			align-items: center
+			&_item_1
+				margin-top: 10px
+				display: flex
+				justify-content: center
+				order: 3
+			&_item_2
+				order: 1
+			&_item_3
+				margin-top: 10px
+				display: flex
+				justify-content: flex-start
+				order: 2
+		.wrapper>div
+			width: 50%
+			&:nth-child(3)
+				justify-content: center
+
+				
+@media (max-width: 767px)
+	.hamburger
+		display: block
+		position: absolute
+		right: 10px
+		top: 50%
+		transform: translateY(-50%)
+		height: 18px
+		span
+			display: block
+			width: 30px
+			height: 2px
+			margin-bottom: 4px
+			background-color: white
+			transition: 0.5s all
+		&_active
+			span
+				margin-bottom: -2px
+				&:nth-child(1)
+					transform: rotate(-45deg) 
+				&:nth-child(2)
+					width: 0
+				&:nth-child(3)
+					transform: rotate(45deg) 
+					
+	.menu
+		position: fixed
+		top: 0
+		left: -100%
+		flex-direction: column
+		padding: 10px 0
+		width: 50%
+		height: 100vh
+		justify-content: center
+		align-items: center
+		background-color: rgba(0,0 ,0 ,.8 )
+		transition: 0.5s
+		&_active
+			left: 0
+		&_link
+			font-size: 20px
+		&_item
+			margin: 10px
+			border: none
+	.xs-hidden
+		display: none
+	.xs-visible
+		display: block
+	.subheader
+		&_phone
+			display: block
+			text-align: center
+			margin-top: 10px
+			font-size: 18px
+			font-weight: 400
+			text-transform: uppercase
+			color: #ffffff
+		&_btn
+			display: block
+			margin: 0 auto
+			margin-top: 10px
+			width: 220px
+			height: 40px
+	.promo
+		&_header
+			line-height: 40px	
+
+@media (max-width: 575px)
+	.small_hidden
+		display: none
+	.hamburger
+		right: 20px
+	.menu
+		&_item
+			width: 100%
+			text-align: center
+			margin: 5px
+		&_link
+			display: block
+			width: 100%
+			font-size: 10px
+	.subheader
+		height: 60px
+		position: relative
+		&_logo
+			margin-top: 16px
+		&_btn
+			margin-top: 5px
+			width: 116px
+			height: 28px
+			font-size: 10px
+		&_phone
+			margin-top: 10px
+			font-size: 12px
+			font-weight: 400
+			text-transform: uppercase
+			color: #ffffff
+	.promo
+		min-height: 200px
+		padding: 113px 0 32px 0
+
+		&_header
+			font-size: 30px
+			line-height: 1.2
+			font-weight: 900
+			text-transform: uppercase
+			color: #ffffff
+		&_subheader
+			line-height: 1.2
+			font-size: 20px
+			font-weight: 700
+		&_descr
+			display: none
+		&_btn
+			margin-top: 69px
+			width: 216px
+			height: 56px
+	.title
+		font-size: 15px
+		font-weight: 700
+		text-transform: uppercase
+		color: #222222
+	.subtitles
+		font-size: 14px
+		line-height: 21px
+		font-weight: 400
+		color: #222222
+	.reasons
+		padding: 22px 0 50px 0
+		.title
+			font-size: 15px
+			font-weight: 700
+			text-transform: uppercase
+			color: #222222
+	.mobile
+		padding: 22px 0 43px 0
+		.title
+			margin-top: 15px
+		.subtitles
+			margin-top: 11px
+		.row
+			margin-top: 27px
+			.col-md-6.col-lg-4
+				padding: 0
+	.car
+		min-height: 390px
+		padding: 25px 0 33px 0
+		.everyday_cars
+			display: block
+			margin: 23px auto
+			text-align: center
+			font-size: 17px
+			font-weight: 300
+			line-height: 24px
+			color: white
+	.bg_grid
+		display: none
+	.conditions
+		padding: 25px
+		&_block
+			margin-bottom: 10px
+			&_list
+				padding-left: 30px
+	.map
+		min-height: 300px
+		padding: 25px 0 30px 0
+	footer
+		.wrapper_item_2
+			.main_list
+				margin-top: 10px
+
+
+
+		.wrapper>div
+			width: 100%
+
+	
